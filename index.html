@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>html</title>
+</head>
+<body>
+  <div class="home">
+  <img src="cringe.gif" alt="error" class="patrik"/>
+  <h3 id="title">Kata Kata Hari Ini</h3>
+  <p id="katakata">Kelak akan ada masanya, Kau yang menunggu, dan aku yang tak pernah datang</p>
+<div class="bttn">
+	<button type="submit" title="Tab" onclick="gantiText()">Tab</button>
+</div>
+	<audio controls autoplay loop class="music">
+	  <source src="music.mp3" type="audio/mp3"/>
+	</audio>
+  </div>
+<script>
+  function gantiText(){
+    document.getElementById('katakata').innerHTML = "Ternyata Gurunya Lebih Keren 😅"
+    
+  }
+</script>
+</body>
+</html>
